@@ -24,5 +24,20 @@ public class Main {
         smartTv.desligar();
 
         System.out.println(smartTv.estado);
+
+        smartTv.aumentarCanal();
+        System.out.println(smartTv.canal);
+
+        smartTv.ligar();
+
+
+        smartTv.aumentarCanal();
+        smartTv.aumentarCanal();
+        smartTv.diminuirCanal();
+
+        System.out.println(smartTv.canal);
+        System.out.println(smartTv.canal);
+
+
     }
 }

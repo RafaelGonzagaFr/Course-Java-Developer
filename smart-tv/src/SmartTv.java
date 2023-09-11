@@ -32,6 +32,24 @@ public class SmartTv {
         this.canal = canal;
     }
 
+    public void aumentarCanal() {
+        if(this.estado == false) {
+            System.out.println("Tv desligada");
+        } else{
+            this.canal++;
+        }
+    }
+
+    public void diminuirCanal() {
+        if(this.estado == false) {
+            System.out.println("Tv desligada");
+        } else if (canal == 1){
+            this.canal = 1;
+        } else {
+            this.canal--;
+        }
+    }
+
     public void ligar(){
         this.estado = true;
     }
