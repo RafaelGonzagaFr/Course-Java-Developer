@@ -8,6 +8,7 @@ public class MyClass {
         String primeiroNome = "Rafael";
         String segundoNome = "Gonzaga";
         System.out.println(nomeCompleto(primeiroNome, segundoNome));
+        System.out.println(BR);
     }
 
     //Método
